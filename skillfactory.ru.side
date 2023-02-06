@@ -1,0 +1,130 @@
+{
+  "id": "afbfd169-e725-4244-b29f-cda706cfdb71",
+  "version": "2.0",
+  "name": "https://skillfactory.ru/",
+  "url": "https://skillfactory.ru",
+  "tests": [{
+    "id": "facd71de-3eef-4a57-8ac3-c1f2dfdebd84",
+    "name": "29test ",
+    "commands": [{
+      "id": "014ce53f-c3a2-4636-91a3-01c66097d62c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d657e56-1ad6-47d7-9c3a-c0322020e0ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1064x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7bd44b2-3d05-477a-bd09-518bdafe2089",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Аналитика данных",
+      "targets": [
+        ["linkText=Аналитика данных", "linkText"],
+        ["css=.tn-elem__4567460551656076132280 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Аналитика данных')]", "xpath:link"],
+        ["xpath=//div[@id='rec456746055']/div/div/div[37]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/analitika-dannyh')])[2]", "xpath:href"],
+        ["xpath=//div[37]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01d00e86-1180-4fc8-86fc-6ba8d4928ec5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Аналитика данных",
+      "targets": [
+        ["linkText=Аналитика данных", "linkText"],
+        ["css=.tn-elem__4567460551656076132280 > .tn-atom", "css:finder"],
+        ["xpath=//a[contains(text(),'Аналитика данных')]", "xpath:link"],
+        ["xpath=//div[@id='rec456746055']/div/div/div[37]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/analitika-dannyh')])[2]", "xpath:href"],
+        ["xpath=//div[37]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43ad5d85-4c5a-4362-ad94-e9d28825f41f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tn-elem__4567460551563736002507 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__4567460551563736002507 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec456746055']/div/div/div[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses')])[18]", "xpath:href"],
+        ["xpath=//div[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "522b8f20-aac9-454d-9a12-fe756fc366ea",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tn-elem__4567460551563736002507 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__4567460551563736002507 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec456746055']/div/div/div[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses')])[18]", "xpath:href"],
+        ["xpath=//div[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da2bd6a8-6f1c-43b8-adf5-02c3acb3d4de",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Все курсы",
+      "targets": [
+        ["linkText=Все курсы", "linkText"],
+        ["css=.tn-elem__4567460551563736040421 a", "css:finder"],
+        ["xpath=//a[contains(text(),'Все курсы')]", "xpath:link"],
+        ["xpath=//div[@id='rec456746055']/div/div/div[9]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses')])[19]", "xpath:href"],
+        ["xpath=//div[9]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Все курсы')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76f0e64d-06f1-47bd-b04a-495aa58a0734",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Веб-разработка",
+      "targets": [
+        ["linkText=Веб-разработка", "linkText"],
+        ["css=.t992__list-item:nth-child(1) > .t992__menu-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Веб-разработка')])[2]", "xpath:link"],
+        ["xpath=//div[@id='rec520573525']/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/web-razrabotka')])[2]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ff67f82-d79d-4075-bbdc-6e1493131dee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Веб-разработка",
+      "targets": [
+        ["linkText=Веб-разработка", "linkText"],
+        ["css=.t992__list-item:nth-child(1) > .t992__menu-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Веб-разработка')])[2]", "xpath:link"],
+        ["xpath=//div[@id='rec520573525']/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/web-razrabotka')])[2]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "938ff7f1-4d75-4f04-b867-e465b94f9b31",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["facd71de-3eef-4a57-8ac3-c1f2dfdebd84"]
+  }],
+  "urls": ["https://skillfactory.ru/"],
+  "plugins": []
+}
